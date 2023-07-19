@@ -6,6 +6,8 @@
   bottom: 0;
   background-color: #333333;
   font-family: Roboto;
+  width: 640px;
+  height: 360px;
 }
 
 #statusText {
@@ -16,8 +18,7 @@
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  font-size: 38px;
-  width: 128px;
+  font-size: 64px;
   overflow-x: visible;
   cursor: default;
   padding: 12px 0;

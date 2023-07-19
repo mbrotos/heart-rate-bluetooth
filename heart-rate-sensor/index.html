@@ -9,11 +9,18 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    
+    <div>
     <div id="container">
       <div id="statusText">GET &#x2764;</div>
       <canvas id="waves"></canvas>
     </div>
+    <video style="z-index: -999; position: absolute;" id="target" controls muted autoplay></video>
+    <button style="z-index: 9999; position: absolute;" id="btn">request PiP</button>
+  </div>
+    
     <script src="heartRateSensor.js"></script>
+    <script src="html2canvas.hertzen.com_dist_html2canvas.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
